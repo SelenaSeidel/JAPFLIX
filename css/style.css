@@ -1,0 +1,57 @@
+.img-card-fit {
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+}
+
+.img-cont {
+    height: 200px;
+    overflow: hidden;
+    background-color: beige;
+}
+
+.card-content{
+    height: 150px;
+    overflow: auto;
+}
+
+main {
+    min-height: calc(100vh - 100px);
+  }
+
+.checked{
+    color: orange;
+}
+
+.offcanvas-top{
+    height: fit-content;
+}
+.offcanvas{
+    overflow: hidden;
+}
+
+.fa {
+    font-size: 2vw;
+}
+  
+.checked {
+    color: orange;
+  }
+
+.dropdown {
+    position: relative; /* relativo para asegurar que esté en la misma fila */
+    z-index: 1;
+}
+
+/* Asegurarse de que el dropdown esté siempre por encima del offcanvas */
+.dropdown-menu {
+    position: absolute !important;  /* Posiciona el menú fuera del flujo normal */
+    z-index: 1;
+   
+}
+.off-canvas-wrapper 
+{
+  overflow: hidden;
+}
+
+
